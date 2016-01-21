@@ -1,0 +1,382 @@
+@-moz-viewport { width: device-width; scale: 1; }
+@-ms-viewport { width: device-width; scale: 1; }
+@-o-viewport { width: device-width; scale: 1; }
+@-webkit-viewport { width: device-width; scale: 1; }
+@viewport { width: device-width; scale: 1; }
+
+html {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+  font: normal 100%/1.5 sans-serif;
+  -moz-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  text-size-adjust: 100%;
+}
+
+@media only screen and (min-width: 60em) { /*large*/
+    
+    html {
+        font-size: 110%;
+    }
+}
+
+@media only screen and (min-width: 90em) { /*xlarge*/
+    
+    html {
+        font-size: 120%;
+    }
+}
+
+@media only screen and (min-width: 120em) { /*xxlarge*/
+    
+    html {
+        font-size: 130%;
+    }
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.welcome {
+    color: white;
+    font-size: 3rem;
+    font-weight: bold;
+    text-align: left;
+}
+
+.welcomeblack {
+    font-size: 3rem;
+    font-weight: bold;
+    text-align: left;
+}
+
+.welcomeblue {
+    color:  #4F94CD;
+    font-size: 3rem;
+    font-weight: bold;
+    text-align: left;
+}
+
+img { 
+    display: block;
+    width: 100%;
+}
+
+.formcolor {
+    background-color: rgba(200, 200, 200, 0.5);
+}
+
+.form {
+    max-width: 45em;
+    margin: 0 auto;
+}
+
+.center{
+    text-align: center;
+}
+   
+.smallprint {
+    color: grey;
+    text-align: center;
+}
+.field { 
+    border: 1px solid #ccc;
+    font-size: 1.5em;
+    padding: 0.2em 0.5em;
+    width: 100%;
+}
+
+.button { 
+    border: 1px solid #ccc;
+    font-size: 1.5em;
+    padding: 0.2em 0.5em;
+    width: 100%;
+    background-color: #4F94CD;
+    color: white;
+}
+
+.explain {
+    border: 1px solid #ccc;
+    font-size: 1.5em;
+    padding: 0.2em 0.5em;
+    width: 100%;
+    height: 8em;
+}
+
+.skip-links {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+.skip-links a {
+    position: absolute;
+    top: -3em;
+    padding: 0.5em 0.75em;
+    background-color: #000;
+    color: #fff;
+    font-weight: bold;
+    font-size: 1.25em;
+    text-decoration: none;
+}
+
+.skip-links a:focus {
+    top:0;
+}
+
+.head {
+    width: 100%;
+    overflow: hidden;
+    padding-bottom: 1rem;
+}
+
+.intro {
+    background-color: #e2e2e2;
+    text-align: center;
+}
+
+.bubbles {
+    padding: 2em;
+}
+
+.icons {
+    width: 70%;
+    margin-left: 15%;
+    margin-right: 15%;  
+}
+
+.bubblescaption {
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    color: white;
+}
+
+.bubbleinfo {
+    text-align: center;
+    color: white;
+}
+
+.bubbleback {
+    background-color: #4F94CD;
+}
+
+.signup a,
+.signup a:link,
+.signup a:visited {
+  background-color: white;
+  text-decoration: none;
+  color: #0074D9;  
+  padding: 1em;
+
+}
+
+.signup a:hover,
+.signup a:focus,
+.signup a:active,
+.signup .nav-current,
+.signup .nav-current:link,
+.signup .nav-current:visited {
+  color: white;
+  text-decoration: none;
+  background-color: #0074D9; 
+  padding: 1em;
+}
+ 
+.signup2 a,
+.signup2 a:link,
+.signup2 a:visited {
+  background-color: white;
+  text-decoration: none;
+  border-style: solid;
+  border-radius: 10px;
+  color: grey;  
+  padding: .5em;
+
+}
+
+.signup2 a:hover,
+.signup2 a:focus,
+.signup2 a:active,
+.signup2 .nav-current,
+.signup2 .nav-current:link,
+.signup2 .nav-current:visited {
+  color: white;
+  text-decoration: none;
+  background-color: grey; 
+  border-color: grey;
+}
+
+
+.toplist a,
+.toplist a:link,
+.toplist a:visited {
+  display: inline;
+  color: white;
+  text-decoration: none;
+  padding: 1em;
+}
+
+.toplist li {
+    display: inline-block;
+}
+
+.toplist a:hover,
+.toplist a:focus,
+.toplist a:active,
+.toplist .nav-current,
+.toplist .nav-current:link,
+.toplist .nav-current:visited {
+  background-color: #0074D9;
+  text-decoration: none;
+  color: #fff;
+  display: inline;
+}
+
+.nav a,
+.nav a:link,
+.nav a:visited {
+  color: #0074D9;
+  text-decoration: none;
+}
+
+.nav a:hover,
+.nav a:focus,
+.nav a:active,
+.nav .nav-current,
+.nav .nav-current:link,
+.nav .nav-current:visited {
+  background-color: #0074D9;
+  text-decoration: none;
+  color: #fff;
+  padding: 1em;
+  display: inline;
+}
+
+.ender {   
+    padding: 0;
+}
+
+.ender li{   
+    list-style-type: none;
+}
+
+.foot {
+    background-color: #ccc;
+    text-align: center;
+}
+ 
+.billboard {
+    background-color: #4F94CD;
+}
+
+.background {
+    background-image: url(../images/back.jpg);
+    background-position: center center;
+    background-size: cover;
+    overflow: hidden;   
+}
+
+.thankyouback {
+    background-image: url(../images/thankyouback.jpg);
+    background-position: center center;
+    background-size: cover;   
+}
+
+.white {
+    color: white;
+}
+
+.photos {
+    width: 40%;
+}
+
+.phone {
+    background-color: #F0F8FF;      
+}
+
+.pod {
+    background-color: #A4D3EE;
+}
+
+.hide {
+        display: none;
+}
+
+.right {
+        text-align: right;
+}
+
+.logo {
+     width: 50%;
+}
+
+
+@media only screen and (min-width: 25em) { /*small*/
+ 
+
+
+    
+@media only screen and (min-width: 38em) { /*medium*/
+       
+    .hide {
+        display: inline;
+    }  
+    
+    .toplist {
+        float: right;
+}
+
+    .icons {
+    width: 70%;
+    margin: 15%;  
+}
+    
+     .phonepic {
+    width: 75%;
+    }
+    
+   .socialbubbles {
+    padding: 2em;
+}
+    
+    .socialbubbles2 {
+    width: 50%;
+}
+    
+}
+
+@media only screen and (min-width: 60em) { /*large*/
+
+    .welcome {
+    font-size: 4rem;
+    }
+    
+    .welcomeblack {
+    font-size: 4rem;
+    }
+    
+    .welcomeblue {
+   font-size: 4rem;
+}
+    
+    .socialbubbles {
+    padding: 4em;
+}
+    
+    .socialbubbles2 {
+    width: 30%;
+}
+   
+   
+}
+    
